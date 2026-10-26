@@ -16,7 +16,6 @@ const supabase = SUPABASE_URL && SUPABASE_KEY && !SUPABASE_URL.includes('YOUR_PR
 
 const CHANNELS = [
   { name: 'Semiconductor WhatsApp Channel 1', url: 'https://whatsapp.com/channel/0029VazxTWj9sBIHUOz1xe0N', mode: 'Existing posts may be imported manually; future updates can be submitted', history: 'Manual import allowed', status: 'Manual import' },
-  { name: 'Semiconductor WhatsApp Channel 2', url: 'https://whatsapp.com/channel/0029Vb8Gem43GJP0iVuxMJ1e', mode: 'Future updates only; do not import historical posts', history: 'Future only', status: 'Future only' },
 ];
 const COMPANY_SOURCES = [
   { name:'Qualcomm', url:'https://careers.qualcomm.com/', category:'Chip design' },
